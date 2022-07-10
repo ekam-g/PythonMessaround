@@ -16,8 +16,21 @@ def cool_for_loop():
         a += 1
 
 
+def demo():
+
+    dic = {
+        "brand": "Ford",
+        "model": "Mustang",
+        "year": 1964,
+    }
+    print(dic['model'] + '  This is the model what is the brand?')
+    whatModelGuess = (input())
+    if whatModelGuess == dic['brand']:
+        print('correct')
+        return 0
+    print('incorrect')
+    return 0
+
+
 if __name__ == '__main__':
-    cool_while_loop()
-    p("now doing for loop")
-    cool_for_loop()
-    p("done")
+    demo()
