@@ -1,3 +1,7 @@
+
+from files.quatomCanvas import test
+
+
 def p(print_value):
     print(print_value)
 
@@ -32,4 +36,4 @@ def demo():
 
 
 if __name__ == '__main__':
-    demo()
+    test.quatoum(test)
