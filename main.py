@@ -17,13 +17,12 @@ def cool_for_loop():
 
 
 def demo():
-
     dic = {
         "brand": "Ford",
         "model": "Mustang",
         "year": 1964,
     }
-    print(dic['model'] + '  This is the model what is the brand?')
+    print(dic['model'] + ' This is the model what is the brand?')
     whatModelGuess = (input())
     if whatModelGuess == dic['brand']:
         print('correct')
