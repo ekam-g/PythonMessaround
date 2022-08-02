@@ -1,5 +1,6 @@
 
 from files.quatomCanvas import test
+from test import worked_test
 
 
 def p(print_value):
@@ -35,5 +36,18 @@ def demo():
     return 0
 
 
+def switch():
+    x= 1
+    
+    for x in range(10):
+        match x:
+            case 1:
+                print('case 1')
+
+            case 2:
+                print('case 2')
+
+
 if __name__ == '__main__':
-    test.block30(test)
+    switch()
+

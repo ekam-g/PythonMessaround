@@ -42,3 +42,5 @@ class test:
             x += 1
         print(newList)
         return newList
+    def test(self):
+        print("worked")
