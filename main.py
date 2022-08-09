@@ -1,6 +1,6 @@
 
 from files.quatomCanvas import test
-from test import worked_test
+from test import test
 
 
 def p(print_value):
@@ -48,6 +48,6 @@ def switch():
                 print('case 2')
 
 
-if __name__ == '__main__':
-    switch()
 
+if __name__ == '__main__':
+    test.worked_test(test)
