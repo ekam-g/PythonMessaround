@@ -8,3 +8,7 @@ class test:
     class idk:
         def idkfunc(self):
             print("start")
+        class idk2:
+            def yes(self):
+                print("yes")
+

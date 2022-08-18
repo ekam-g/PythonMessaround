@@ -1,5 +1,5 @@
 
-from files.quatomCanvas import test
+from files.quatomCanvas import test, cool
 from test import test
 
 
@@ -50,4 +50,4 @@ def switch():
 
 
 if __name__ == '__main__':
-    test.worked_test(test)
+    cool.yes(cool)

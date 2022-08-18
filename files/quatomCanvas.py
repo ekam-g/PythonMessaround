@@ -44,3 +44,7 @@ class test:
         return newList
     def test(self):
         print("worked")
+
+class cool:
+    def yes(self):
+        print("yes")
